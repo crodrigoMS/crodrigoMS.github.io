@@ -1,0 +1,26 @@
+.Navbar {
+    height: 70px;
+    width: 100%;
+
+    color: rgb(47, 47, 47);
+    background-color: aliceblue;
+
+    display: grid;
+    grid-template-columns:  40% 60%;
+}
+
+.logoWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ButtonWrapper {
+    padding-right: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 60px;
+}

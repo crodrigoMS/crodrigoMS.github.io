@@ -1,0 +1,33 @@
+.NavbarIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    user-select: none;
+}
+
+.NavbarIconButton {
+    color: rgb(25, 25, 25);
+    background-color: aliceblue;
+
+    width: 100px;
+    height: 28px;
+
+    border-radius: 0 ;
+    box-shadow: 0 0 0 0;
+
+    user-select: none;
+
+    transition: border 0.2s ease-in-out;
+    transition: box-shadow 0.2s cubic-bezier(0,1.09,.38,1.01);
+}
+
+.NavbarIconButton:hover{
+    box-shadow: 0 4px 0 rgb(25, 25, 25);
+    border-bottom: 1px rgb(25, 25, 25);
+}
+
+
+.NavbarIcon::selection {
+    box-decoration-break: noneP;
+}
